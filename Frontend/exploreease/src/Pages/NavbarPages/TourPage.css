@@ -1,0 +1,69 @@
+/* General styling for the reservations page */
+.reservations1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.reservations1 h2 {
+  text-align: center;
+  color: #0c0d0f;
+  margin-bottom: 20px;
+}
+
+.reservations-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reservation-card1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.reservation-card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reservation-card1 h3 {
+  margin-top: 0;
+  color: #080808;
+}
+
+.reservation-card1 p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.reservation-card1 p strong {
+  color: #333;
+}
+
+.reservation-card1 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.reservation-card1 a:hover {
+  background-color: #0056b3;
+}
+
+/* Loader and no reservations message styling */
+.reservations1 p {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+}

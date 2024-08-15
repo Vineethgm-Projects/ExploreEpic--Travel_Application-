@@ -1,0 +1,26 @@
+
+
+  .destination-container {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px;
+      gap: 10px;
+      padding-top: 40px;
+  }
+  
+  .destination-container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .tour-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .desh2{
+    padding-top: 30px;
+    font-weight: bold;
+  }

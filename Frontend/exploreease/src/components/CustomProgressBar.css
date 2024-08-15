@@ -1,0 +1,29 @@
+.progress-bar-container {
+    width: 550px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    height: 20px; /* Adjust this to fit your design */
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #ffd700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-bar-label {
+    padding: 0 10px;
+    font-size: 0.75em; /* Smaller font size to fit better */
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  

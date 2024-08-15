@@ -1,0 +1,130 @@
+/* General styling for the tour detail page */
+.tour-detail2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tour-detail2 h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.tour-detail2 p {
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.tour-detail2 p strong {
+  color: #333;
+}
+
+.tour-plan2 {
+  margin-top: 20px;
+}
+
+.tour-plan2 h3 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Timeline styling with vertical progress bar */
+.tour-plan-timeline2 {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 50px; /* Adjusts the padding to align the content */
+}
+
+.tour-plan-step2 {
+  position: relative;
+  padding: 10px 0;
+}
+
+.tour-plan-step-content2 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  position: relative;
+  margin-left: 50px; /* Aligns content with the progress bar */
+}
+
+.tour-plan-step-content2:hover {
+  background-color: #f1f1f1;
+}
+
+.tour-plan-step-content2 h4 {
+  margin: 0;
+  color: #333;
+}
+
+.tour-plan-step-content2 p {
+  margin: 5px 0;
+  color: #777;
+  line-height: 1.4;
+}
+
+/* Vertical progress bar styling */
+.progress-bar1 {
+  position: absolute;
+  left: 20px; /* Adjusts the position of the bar */
+  top: 0;
+  width: 12px; /* Slightly wider bar */
+  height: 100%;
+  background: linear-gradient(180deg, #000000, #000000); /* Smoother gradient */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(39, 44, 40, 0.6); /* Inner shadow for depth and outer glow */
+  z-index: 1;
+}
+
+.progress-bar1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e0e0e0; /* Lighter background for the unfilled part */
+  border-radius: 10px;
+  z-index: -1;
+}
+
+/* Additional styling */
+.tour-detail2 .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #21a833;
+}
+
+.tour-detail2 .location {
+  font-style: italic;
+  color: #db6d3e;
+}
+
+/* .tour-plan-step-marker2 {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.tour-plan-step-marker2.completed {
+  background-color: #448446;
+  border-color: #81c784;
+} */

@@ -1,0 +1,99 @@
+/* TourCard.css */
+.tour-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tour-card-featured {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #41978c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.tour-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tour-card-content {
+    padding: 10px;
+}
+
+.tour-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour-card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tour-card-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.tour-card-location {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+}
+
+.tour-card-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.tour-card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #888;
+}
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star-rating .filled-star {
+    color: #f39c12; /* Adjust this color to your desired star color */
+}
+
+.star-rating .unfilled-star {
+    color: #938f8f; /* Adjust this color to your desired unfilled star color */
+}
+
+/* Add this to TourCard.css */
+
+.tour-card-wishlist {
+    cursor: pointer;
+    color: #888; /* Default color */
+    transition: color 0.3s;
+}
+
+.tour-card-wishlist:hover {
+    color: #ff6347; /* Change color on hover, adjust as needed */
+}
+
+.tour-card-wishlist.active {
+    color: #ff6347; /* Color when active, indicating it's in the wishlist */
+}
+
+/* Add the following to TourCard.css */
+
+
+

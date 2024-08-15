@@ -1,0 +1,7 @@
+.wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust spacing between tour cards as needed */
+    justify-content: center; /* Center the tour cards */
+    padding: 16px; /* Adjust padding around the wishlist container as needed */
+}

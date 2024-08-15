@@ -1,0 +1,31 @@
+.signlogin {
+  background-image: url("Z:/Trip Tick/trip_tick/exploreease/public/images/backgroundmt.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.apph1 {
+  padding-top: 10%;
+  margin-top: 0;
+}
+
+.tablink {
+  cursor: pointer;
+  /* Other styles */
+}
+
+
+.tablink.active {
+  font-weight: bold;
+  /* Other active styles */
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
