@@ -9,7 +9,6 @@ Explore Epic is a full-stack travel planning web app designed to help users expl
 * [Features](#features)
 * [Why I Built This](#why-i-built-this)
 * [Tech Stack](#tech-stack)
-* [Screenshots](#screenshots)
 * [Usage](#usage)
 
 ---
@@ -47,12 +46,6 @@ Planning trips can be overwhelming with scattered information and limited person
 * Spring Security
 * JPA
 * REST APIs
-
----
-
-## Screenshots
-
-
 
 ---
 
